@@ -1,0 +1,70 @@
+/* Base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Grid */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.column-1 {
+  width: 8.33%;
+  padding: 0 10px;
+}
+.column-2 {
+  width: 16.67%;
+  padding: 0 10px;
+}
+.column-3 {
+  width: 25%;
+  padding: 0 10px;
+}
+.column-4 {
+  width: 33.33%;
+  padding: 0 10px;
+}
+.column-5 {
+  width: 41.67%;
+  padding: 0 10px;
+}
+.column-6 {
+  width: 50%;
+  padding: 0 10px;
+}
+.column-7 {
+  width: 58.33%;
+  padding: 0 10px;
+}
+.column-8 {
+  width: 66.67%;
+  padding: 0 10px;
+}
+.column-9 {
+  width: 75%;
+  padding: 0 10px;
+}
+.column-10 {
+  width: 83.33%;
+  padding: 0 10px;
+}
+.column-11 {
+  width: 91.67%;
+  padding: 0 10px;
+}
+.column-12 {
+  width: 100%;
+  padding: 0 10px;
+}
+
+/* その他 */
+
+.ex-column {
+  min-height: 500px;
+  background-color: #ddd
+}
